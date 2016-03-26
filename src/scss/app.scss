@@ -1,0 +1,52 @@
+#footer {
+    background: rgb(245, 245, 245);
+    border: 1px solid #ccc
+}
+
+#footer a {
+    color: #707070;
+}
+
+#footer .footer-body {
+    margin: 20px 0;
+    min-height: 40px;
+    text-align:center;
+    font-size: 12px;
+    line-height: 1.66666666666667;
+    color: #707070;
+    padding: 0 20px;
+}
+
+#footer .footer-body > ul {
+  display: block;
+  font-size: 0;
+  list-style: none;
+  padding: 0;
+}
+#footer .footer-body > ul > li {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.66666666666667;
+  padding: 0;
+  white-space: nowrap;
+}
+
+#footer .footer-body > ul > li + li {
+  margin-left: 10px;
+}
+#footer .footer-body > ul > li:after {
+  content: "\b7";
+  /* mid dot */
+  margin-left: 10px;
+  speak: none;
+}
+#footer .footer-body > ul > li:last-child:after {
+  display: none;
+}
+
+#footer-logo a {
+  background: url('../images/sample-logo-black1.png') center bottom no-repeat;
+  background-size: 114px 24px;
+  display: block;
+  height: 24px;
+}
